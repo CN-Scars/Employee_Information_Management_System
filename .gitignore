@@ -1,0 +1,56 @@
+# 主目录的忽略规则
+.idea/
+employee_information_management_system_frontend.iml
+
+# 后端工程的忽略规则
+employee_information_management_system_backend/HELP.md
+employee_information_management_system_backend/target/
+employee_information_management_system_backend/!.mvn/wrapper/maven-wrapper.jar
+employee_information_management_system_backend/!**/src/main/**/target/
+employee_information_management_system_backend/!**/src/test/**/target/
+
+### STS ###
+employee_information_management_system_backend/.apt_generated
+employee_information_management_system_backend/.classpath
+employee_information_management_system_backend/.factorypath
+employee_information_management_system_backend/.project
+employee_information_management_system_backend/.settings
+employee_information_management_system_backend/.springBeans
+employee_information_management_system_backend/.sts4-cache
+
+### IntelliJ IDEA ###
+employee_information_management_system_backend/.idea
+employee_information_management_system_backend/*.iws
+employee_information_management_system_backend/*.iml
+employee_information_management_system_backend/*.ipr
+
+### NetBeans ###
+employee_information_management_system_backend/nbproject/private/
+employee_information_management_system_backend/nbbuild/
+employee_information_management_system_backend/dist/
+employee_information_management_system_backend/nbdist/
+employee_information_management_system_backend/.nb-gradle/
+employee_information_management_system_backend/build/
+employee_information_management_system_backend/!**/src/main/**/build/
+employee_information_management_system_backend/!**/src/test/**/build/
+
+### VS Code ###
+employee_information_management_system_backend/.vscode/
+
+# 前端工程的忽略规则
+employee_information_management_system_frontend/.DS_Store
+employee_information_management_system_frontend/node_modules/
+employee_information_management_system_frontend/dist/
+employee_information_management_system_frontend/npm-debug.log*
+employee_information_management_system_frontend/yarn-debug.log*
+employee_information_management_system_frontend/yarn-error.log*
+employee_information_management_system_frontend/package-lock.json
+employee_information_management_system_frontend/tests/**/coverage/
+
+# Editor directories and files
+employee_information_management_system_frontend/.idea
+employee_information_management_system_frontend/.vscode
+employee_information_management_system_frontend/*.suo
+employee_information_management_system_frontend/*.ntvs*
+employee_information_management_system_frontend/*.njsproj
+employee_information_management_system_frontend/*.sln
